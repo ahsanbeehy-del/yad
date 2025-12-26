@@ -1,4 +1,4 @@
-name: win 11 + tailscale + Download.bat script 
+name: win 10 + tailscale + Download.bat script 
 
 on:
   workflow_dispatch:
