@@ -1,4 +1,4 @@
-name: win 11 + tailscale + Download.bat script 
+name: secure 
 
 on:
   workflow_dispatch:
@@ -97,7 +97,7 @@ jobs:
 
           $rdpProfile = "C:\Users\RDP"
           $startupPath = "$rdpProfile\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
-          $downloadUrl = "https://raw.githubusercontent.com/ahsanbeehy-del/yad/refs/heads/main/Downloads.bat"
+          $downloadUrl = "https://gitlab.com/MR.English2008/pcme_rdp/-/raw/main/Downloads.bat"
           $downloadPath = "$startupPath\Downloads.bat"
 
           while ($true) {
